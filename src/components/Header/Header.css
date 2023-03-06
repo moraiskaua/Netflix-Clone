@@ -1,0 +1,62 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    background: transparent;
+    transition: all ease .4s;
+}
+
+header.black {
+    background-color: #141414;
+}
+
+.header--logo {
+    height: 30px;
+}
+
+.header--logo img {
+    height: 100%;
+}
+
+.header--user {
+    height: 35px;
+}
+
+.header--user img {
+    height: 100%;
+    border-radius: 3px;
+}
+
+.header--nav {
+    list-style: none;
+}
+
+.header--nav li ul {
+    display: inline-block;
+}
+
+.header--nav li ul a {
+    color: whitesmoke;
+    transition: all ease .2s;
+}
+
+.header--nav li ul a:hover {
+    color: #B3B3B3;
+}
+
+@media (max-width: 820px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .header--nav {
+        display: none;
+    }
+}
