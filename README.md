@@ -12,7 +12,7 @@ Projeto desenvolvido utilizando React + Typescript, além dos dados da API do Mo
 
 ### Rodar:
 
-- `npm start`
+- `npm run dev`
 
 #
 
